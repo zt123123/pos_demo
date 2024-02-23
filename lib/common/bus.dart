@@ -42,3 +42,5 @@ class EventBus {
     }
   }
 }
+
+var bus = EventBus();

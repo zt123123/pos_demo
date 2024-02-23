@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:pos_demo/common/bus.dart';
-
-var bus = EventBus();
+import 'package:pos_demo/common/bus.dart' show bus;
+import "package:flutter_screenutil/flutter_screenutil.dart";
 
 class MyMenu extends StatefulWidget {
   const MyMenu({super.key});
 
   @override
-  _MyMenuState createState() => _MyMenuState();
+  State<MyMenu> createState() => _MyMenuState();
 }
 
 class _MyMenuState extends State<MyMenu> {
@@ -43,14 +42,15 @@ class _MyMenuState extends State<MyMenu> {
         });
       },
       child: Container(
-        width: 108,
-        height: 36,
-        margin: const EdgeInsets.only(bottom: 8),
+        width: 216.w,
+        height: 72.w,
+        // margin: const EdgeInsets.only(bottom: 8),
         decoration: BoxDecoration(
           color: _selectedIndex == index
               ? const Color.fromRGBO(255, 255, 255, 0.2)
               : null,
-          borderRadius: BorderRadius.circular(_selectedIndex == index ? 18 : 0),
+          borderRadius:
+              BorderRadius.circular(_selectedIndex == index ? 36.w : 0),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -64,10 +64,10 @@ class _MyMenuState extends State<MyMenu> {
             const SizedBox(width: 12),
             Text(
               title,
-              style: const TextStyle(
-                  fontSize: 12,
+              style: TextStyle(
+                  fontSize: 24.sp,
                   fontWeight: FontWeight.normal,
-                  color: Color.fromRGBO(255, 255, 255, 0.8),
+                  color: const Color.fromRGBO(255, 255, 255, 0.8),
                   height: 1.2083333333,
                   decoration: TextDecoration.none),
             ),

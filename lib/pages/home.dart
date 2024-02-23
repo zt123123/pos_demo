@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:pos_demo/common/bus.dart';
+import 'package:pos_demo/common/bus.dart' show bus;
 import 'package:pos_demo/screens/analyze.dart';
 import 'package:pos_demo/screens/order.dart';
 import 'package:pos_demo/screens/pay.dart';
 import 'package:pos_demo/widgets/side_bar.dart';
 import 'package:pos_demo/screens/product.dart';
 import 'package:pos_demo/screens/customer.dart';
-
-var bus = EventBus();
 
 const List<Widget> _pages = [
   ProductScreen(),

@@ -31,6 +31,8 @@ class HttpRequest {
           "message": "fail",
         };
       }
-    } catch (e) {}
+    } catch (e) {
+      // handle error
+    }
   }
 }
