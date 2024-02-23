@@ -1,3 +1,14 @@
+# 项目截图
+
+![截图1](https://si.geilicdn.com/img-7e790000018dd56677960a22d30f-unadjust_2302_1092.png)
+
+![截图2](https://si.geilicdn.com/img-7e790000018dd56677960a22d30f-unadjust_2302_1092.png)
+
+# 知识图谱
+[点我查看最新版本](https://www.processon.com/mindmap/65d6e45c64fc700e502fadfe)
+
+![flutter知识图谱](https://si.geilicdn.com/img-4ec60000018dd5683e050a22d50c-unadjust_1772_3588.png)
+
 # 问题记录
 
 - Container设置圆角属性无效(实际上是被子组件的背景色挡住了)，需要设置容器的clipBehavior(类似overflow)为none以外的其他值
