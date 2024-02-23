@@ -46,6 +46,7 @@ class _DateTimeDisplayState extends State<DateTimeDisplay> {
 
   @override
   Widget build(BuildContext context) {
+    // TODO RepaintBoundary优化
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
