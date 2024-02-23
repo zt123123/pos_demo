@@ -2,7 +2,7 @@
 
 ![截图1](https://si.geilicdn.com/img-7e790000018dd56677960a22d30f-unadjust_2302_1092.png)
 
-![截图2](https://si.geilicdn.com/img-7e790000018dd56677960a22d30f-unadjust_2302_1092.png)
+![截图2](https://si.geilicdn.com/img-7b050000018dd56677970a231447-unadjust_2302_1092.png)
 
 # 知识图谱
 [点我查看最新版本](https://www.processon.com/mindmap/65d6e45c64fc700e502fadfe)
